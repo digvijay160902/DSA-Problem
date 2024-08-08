@@ -39,6 +39,17 @@ class Solution {
     long long reversedBits(long long x) {
         
         return helper(x);
+        // long long ans = 0;
+        // long long power = 1; // initial power 2 because 2^0=1;
+        
+        // for(int i=0; i<32; i++)
+        // {
+        //     if(x & (1 << (31-i)))
+        //         ans+=power;
+        //     power = power*2;
+        // }
+        
+        // return ans;
         
     }
 };
